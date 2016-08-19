@@ -10,6 +10,7 @@ RUN bash $DMETEOR_DIR/init.sh
 ENV APP_SRC_DIR /app_src
 ENV APP_DIR /app
 ONBUILD COPY ./ $APP_SRC_DIR
+ONBUILD RUN bash $DMETEOR_DIR/install_meteor.sh
 ONBUILD RUN bash $DMETEOR_DIR/build_app.sh
 
 # for test
