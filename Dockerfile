@@ -10,7 +10,11 @@ RUN bash $DMETEOR_DIR/init.sh
 ENV APP_SRC_DIR /app_src
 ENV APP_DIR /app
 ONBUILD COPY ./ $APP_SRC_DIR
-ONBUILD RUN bash $DMETEOR_DIR/bulid_app.sh
+ONBUILD RUN bash $DMETEOR_DIR/build_app.sh
+
+# for test
+RUN bash ls -a -l $DMETEOR_DIR
+ONBUILD RUN bash ls -a -l $DMETEOR_DIR
 
 # run app
 EXPOSE 80
