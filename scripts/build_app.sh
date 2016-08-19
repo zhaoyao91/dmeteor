@@ -1,5 +1,8 @@
 set -e
 
+# install meteor
+bash $DMETEOR_DIR/lib/install_meteor.sh
+
 BUNDLE_DIR=/tmp/bundle
 
 cd $APP_SRC_DIR
