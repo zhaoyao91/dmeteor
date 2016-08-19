@@ -4,4 +4,4 @@ cd $APP_DIR
 
 echo "=> Starting meteor app"
 node main.js
-echo "=> meteor app started"
+echo "=> Meteor app started"
