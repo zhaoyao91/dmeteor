@@ -28,6 +28,10 @@ docker run -d \
     yourname/app
 ``````
 
+## Versions
+The `latest` version will always be the latest version.  
+If some incompatible changes are made, a new legacy version will be added and commented with its core features.
+
 ## Contributions
 Welcome any helps and supports. We want you to join us to maintain it together.
 
