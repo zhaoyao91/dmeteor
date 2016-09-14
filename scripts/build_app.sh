@@ -3,7 +3,7 @@ set -e
 BUNDLE_DIR=/tmp/bundle
 
 cd $APP_SRC_DIR
-npm install --production
+npm install
 meteor build --directory $BUNDLE_DIR
 
 cd $BUNDLE_DIR/bundle/programs/server
