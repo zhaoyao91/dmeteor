@@ -7,7 +7,7 @@ curl -sL https://install.meteor.com | sed s/--progress-bar/-sL/g | /bin/sh
 
 # build app
 cd $APP_SRC_DIR
-meteor npm install --unsafe-perm
+npm install
 meteor build --directory $BUNDLE_DIR --unsafe-perm
 
 mv $BUNDLE_DIR/bundle $APP_DIR
