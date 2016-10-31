@@ -1,6 +1,9 @@
 # DMeteor
 run meteor in docker easily
 
+## Deprecated
+see [Meteor Tools](https://github.com/zhaoyao91/meteor-tools)
+
 ## From MeteorD
 Most of code of this repo is from the great [MeteorD](https://github.com/kadirahq/meteord) project. We just simplified it, fixed some bugs, and concentrated on the most straightforward usage, only to make it easier to use and maintain.
 
